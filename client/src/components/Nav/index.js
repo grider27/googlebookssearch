@@ -8,11 +8,11 @@ function MainNav() {
   return (
     <Navbar variant="dark" expand="lg">
       <Navbar.Brand>
-        Google Books Search
+        Google Books
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto mt-2">
           <Link className="nav-item nav-link h5" to="/">
             Search
           </Link>
